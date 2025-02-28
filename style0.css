@@ -24,34 +24,6 @@ min-height:200vh;
     flex-direction: column;
     justify-content: space-between;
 }
-@media(max-width:3000px){
-    .menu{
-        display: none;
-    }
-}
-@media (max-width:1200px){
-    .container{
-        max-width: 1000px;
-    }
-}
-@media (max-width:1000px){
-    .container{
-        max-width: 768px;
-    }
-}
-@media (max-width:768px){
-    .container{
-        max-width: 480px;
-    }
-    .source{
-        display: none;
-    }
-    .menu{
-        display: block;
-    }
-}
-@media (max-width:480px){
-}
 header{
     padding: 1vw;
     max-height: 8vw;
@@ -61,13 +33,6 @@ flex-direction: row;
 border-top: 1px solid white;
 border-bottom: 1px solid white;
 }
-@media (max-width:768px){
-header{
-    margin-top: 2vw;
-    max-height: 50vh;
-}
-}
-
 .titleHeader{
     font-size: 1.2vw;
 display: flex;
@@ -77,12 +42,6 @@ align-items: center;
 width: 33.3333%;
 border-right: 1px solid white;
 }
-@media (max-width:768px){
-    .titleHeader{
-        width: 66.6666%;
-        font-size: 4vw;
-    }
-}
 .sourceHeader{
     font-size: 1vw;
 width: 66.66666%;
@@ -91,21 +50,10 @@ flex-direction: row;
 align-items: center;
 justify-content: space-around;
 }
-@media (max-width:768px){
-    .sourceHeader{
-        width: 33.33333%;
-    }
-}
 .source{
     padding: 0% 2%;
 width: 33.33333%;
 text-align: center;
-}
-@media (max-width:768px){
-    .source{
-        display: none;
-    }
-
 }
 .intoduction{
     letter-spacing: 0.15vw;
@@ -114,44 +62,20 @@ text-align: center;
     width: 70%;
     color:rgba(255, 255, 255, 0.592);
 }
-@media (max-width:768px){
-    .intoduction{
-        max-height: 20vh;
-        font-size: 4vw;
-    }
-}
 .block_1{
     max-height: 60vh;
     line-height: 2vw;
     padding: 1.4vw;
 max-width: 100%;
 }
-@media (max-width:768px){
-   .block_1{
-    max-width: 100vw;
-    max-height: 100vh;
-   }
-}
 .titleBlock1{
 text-align: center;
 font-size: 1.2vw;
-}
-@media (max-width:768px){
-    .titleBlock1{
-        font-size: 4vw;
-        margin-bottom: 2vw;
-    }
 }
 .textBlock1{
     font-size: 1vw;
     letter-spacing: 0.15vw;
 line-height: 1.5vw;
-}
-@media (max-width:768px){
-    .textBlock1{
-font-size: 3vw;    
-line-height: 4vw;
-}
 }
 .block_2{
     height: 30vw;
@@ -159,19 +83,9 @@ line-height: 4vw;
 display: flex;
 flex-direction: column;
 }
-@media (max-width:768px){
-    .block_2{
-height: 100vh;
-}
-}
 .titleBlock2{
     font-size: 1.2vw;
 text-align: center;
-}
-@media (max-width:768px){
-    .titleBlock2{
-font-size: 4vw;
-}
 }
 .Group1{
     margin-top: 1%;
@@ -182,24 +96,10 @@ font-size: 4vw;
     font-size: 1vw;
     line-height: 1.2vw;
 }
-@media (max-width:768px){
-    .Group1{
-display: flex;
-flex-direction: column;
-justify-content: space-around;
-}
-}
 .group1{
     max-width: 33.33333%;
 display: flex;
 flex-direction: column;
-}
-@media (max-width:768px){
-    .group1{
-        width: 100%;
-display: flex;
-justify-content: center;
-}
 }
 .group2{
     max-width: 33.33333%;
@@ -215,31 +115,13 @@ justify-content: center;
     letter-spacing: 0.1vw;
     width: 100%;
 }
-@media (max-width:768px){
-    .textGroup1{
-font-size: 3vw;
-line-height: 4vw;
-}
-}
 .textGroup2{
     letter-spacing: 0.1vw;
     width: 100%;
 }
-@media (max-width:768px){
-    .textGroup2{
-font-size: 3vw;
-line-height: 4vw;
-}
-}
 .textGroup3{
     letter-spacing: 0.1vw;
     width: 100%;
-}
-@media (max-width:768px){
-    .textGroup3{
-font-size: 3vw;
-line-height: 4vw;
-}
 }
 .imgGroup1{
     width:100%;
@@ -248,24 +130,12 @@ background-image:url("./image-4.png") ;
 background-size: cover;
 background-repeat: no-repeat
 }
-@media (max-width:768px){
-    .imgGroup1{
-width: 50vw;
-height: 30vw;
-}
-}
 .imgGroup2{
     width:100%;
     height: 70%;
 background-image:url("./screen-0.jpg");
 background-size: cover;
 background-repeat: no-repeat
-}@media (max-width:768px){
-    .imgGroup2{
-width: 50vw;
-height: 30vw;
-margin-top:20vw;
-}
 }
 .imgGroup3{
     width:100%;
@@ -273,12 +143,6 @@ margin-top:20vw;
 background-image:url("./cross-platform-concept-banner-building-mobile-interface-screen-laptop-smartphone-tablet-developers-use-software-multiple-140348786.webp");
 background-size: cover;
 background-repeat: no-repeat;
-}@media (max-width:768px){
-    .imgGroup3{
-        margin-top:20vw;
-width: 50vw;
-height: 30vw
-}
 }
 .titleGroup{
     padding: 2% 0%;
@@ -286,22 +150,10 @@ height: 30vw
     font-size: 1.1vw;
     text-align: center;
 }
-@media (max-width:768px){
-    .titleGroup{
-font-size: 3.5vw;
-
-}
-}
 .block_3{
 max-width: 100%;
 display: flex;
 flex-direction: column;
-}
-@media (max-width:768px){
-    .block_3{
-        margin-top: 50vw;
-height: 90vw;
-}
 }
 .Group2{
     margin-top: 1%;
@@ -312,13 +164,6 @@ height: 90vw;
     font-size: 1vw;
     line-height: 1.2vw;
 }
-@media (max-width:768px){
-    .Group2{
-        display: flex;
-        flex-direction: column;
-margin-top: 20%;
-}
-}
 .titleBlock3{
     margin: 2vw;
     font-size: 1.2vw;
@@ -326,21 +171,10 @@ margin-top: 20%;
     max-height: 3vh;
     text-align: center;
 }
-@media (max-width:768px){
-    .titleBlock3{
-        font-size: 4vw;
-}
-}
 .textGroup{
     letter-spacing: 0.15vw;
     line-height: 1.5vw;
 padding: 0vw 1.5vw;
-}
-@media (max-width:768px){
-    .textGroup{
-        font-size: 3vw;
-        line-height: 4vw;
-}
 }
 .imgGroup{
     width: 30vw;
@@ -350,24 +184,11 @@ padding: 0vw 1.5vw;
     background-size: cover;
     background-repeat: no-repeat;
 }
-@media (max-width:768px){
-    .imgGroup{
-width: 50vw;
-height: 50vw;
-}
-}
 footer{
     font-size: 1.2vw;
     max-width: 100%;
     height: 2vw;
 background-color: rgba(35, 35, 35, 1);
-}
-@media (max-width:768px){
-    footer{
-height: 4vh;
-font-size: 3vw;
-margin-top:20vw;
-}
 }
 .content{
     width: 100%;
@@ -394,12 +215,6 @@ background-image: url("./icons8-телеграмма-app-48.svg");
 background-size: cover;
 background-repeat: no-repeat;
 }
-@media (max-width:768px){
-    .image1{
-width: 8vw;
-height: 8vw;
-}
-}
 .sourceFooter2{
     text-align: center;
     height: 100%;
@@ -413,17 +228,4 @@ height: 8vw;
 background-image: url("./icons8-vk-в-круге-48.svg");
 background-size: cover;
 background-repeat: no-repeat;
-}
-@media (max-width:768px){
-    .image2{
-width: 8vw;
-height: 8vw;
-}
-}
-.menu{
-    width: 20vw;
-    height: 20vw;
-    background-image: url("./icons8-меню.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
 }
