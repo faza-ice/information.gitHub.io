@@ -83,6 +83,12 @@ border-right: 1px solid white;
         font-size: 4vw;
     }
 }
+@media (max-width:1200px){
+    .titleHeader{
+        width: 66.6666%;
+        font-size: 2vw;
+    }
+}
 .sourceHeader{
     font-size: 1vw;
 width: 66.66666%;
@@ -107,6 +113,12 @@ text-align: center;
     }
 
 }
+@media (max-width:1200px){
+    .source{
+        font-size: 1.5vw;
+    }
+
+}
 .intoduction{
     letter-spacing: 0.15vw;
     padding: 1vw;
@@ -116,9 +128,14 @@ text-align: center;
 }
 @media (max-width:768px){
     .intoduction{
-        min-height: 20vh;
+        min-height: 3vh;
         font-size: 4vw;
         margin: 7% 0%
+    }
+}
+@media (max-width:1200px){
+    .intoduction{
+        font-size: 2vw;
     }
 }
 .block_1{
@@ -141,7 +158,7 @@ max-width: 100%;
  }
 .titleBlock1{
 text-align: center;
-font-size: 1.2vw;
+font-size: 1.8vw;
 }
 @media (max-width:768px){
     .titleBlock1{
@@ -149,14 +166,27 @@ font-size: 1.2vw;
         margin-bottom: 2vw;
     }
 }
+@media (max-width:1200px){
+    .titleBlock1{
+        font-size: 2.5vw;
+    }
+}
 .textBlock1{
-    font-size: 1vw;
+    margin:0vw 5vw ;
+    width: 60vw;
+    font-size: 1.3vw;
     letter-spacing: 0.15vw;
-line-height: 1.5vw;
+line-height: 4vw;
 }
 @media (max-width:768px){
     .textBlock1{
 font-size: 3vw;    
+line-height: 4vw;
+}
+}
+@media (max-width:1200px){
+    .textBlock1{
+font-size: 2vw;    
 line-height: 4vw;
 }
 }
@@ -169,7 +199,7 @@ flex-direction: column;
 @media (max-width:768px){
     .block_2{
 max-height: 300vw;
-min-height: 240vw;
+min-height: 100vw;
 display: flex;
 flex-direction: column;
 }
@@ -177,18 +207,24 @@ flex-direction: column;
 @media (max-width:480px){
     .block_2{
 max-height: 300vw;
-min-height: 220vw;
+min-height: 150vw;
 display: flex;
 flex-direction: column;
 }
 }
 .titleBlock2{
-    font-size: 1.2vw;
+    font-size: 1.8vw;
 text-align: center;
 }
 @media (max-width:768px){
     .titleBlock2{
-font-size: 4vw;
+font-size: 4vw;;
+}
+}
+
+@media (max-width:1200px){
+    .titleBlock2{
+font-size: 2.5vw;
 }
 }
 .Group1{
@@ -264,11 +300,14 @@ line-height: 4vw;
     height: 30vw;
 background-image:url("./image-4.png") ;
 background-size: cover;
-background-repeat: no-repeat
+background-repeat: no-repeat;
+background-position: center;
 }
 @media (max-width:768px){
     .imgGroup1{
-width: 50vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
+width: 80vw;
 height: 30vw;
 }
 }
@@ -277,9 +316,12 @@ height: 30vw;
     height: 30vw;
 background-image:url("./screen-0.jpg");
 background-size: cover;
-background-repeat: no-repeat
+background-repeat: no-repeat;
+background-position: center;
 }@media (max-width:768px){
     .imgGroup2{
+        margin-left: 10%;
+        margin-right: 10%;
 width: 50vw;
 height: 30vw;
 margin-top:20vw;
@@ -291,17 +333,20 @@ margin-top:20vw;
 background-image:url("./cross-platform-concept-banner-building-mobile-interface-screen-laptop-smartphone-tablet-developers-use-software-multiple-140348786.webp");
 background-size: cover;
 background-repeat: no-repeat;
+background-position: center;
 }@media (max-width:768px){
     .imgGroup3{
         margin-top:20vw;
-width: 50vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
+width: 80vw;
 height: 30vw
 }
 }
 .titleGroup{
     padding: 2% 0%;
     width: 100%;
-    font-size: 1.1vw;
+    font-size: 1.4vw;
     text-align: center;
 }
 @media (max-width:768px){
@@ -310,7 +355,15 @@ font-size: 3.5vw;
 
 }
 }
+@media (max-width:1200px){
+    .titleGroup{
+font-size: 1.35vw;
+
+}
+}
 .block_3{
+    margin-top: 5vw;
+    padding: 0.5vw;
 max-width: 100%;
 display: flex;
 flex-direction: column;
@@ -320,7 +373,7 @@ flex-direction: column;
         margin-top: 2%;
         display: flex;
         flex-direction: column;
-min-height: 125vw;
+min-height: 110vw;
 }
 }
 @media (max-width:480px){
@@ -348,14 +401,15 @@ margin-top: 10vw;
 }
 }
 .titleBlock3{
-    font-size: 1.2vw;
+    font-size: 1.8vw;
     max-width: 100%;
     max-height: 3vh;
     text-align: center;
+    margin-top: 5%;
 }
 @media (max-width:768px){
     .titleBlock3{
-        font-size: 4vw;
+        font-size: 2.5vw;
 }
 }
 .textGroup{
@@ -371,16 +425,19 @@ padding: 0vw 1.5vw;
 }
 .imgGroup{
     width: 30vw;
-     height: 30vw;
+     height: 50vw;
     max-height: 90%;
     background-image:url("./ssloiEN3wB0.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 @media (max-width:768px){
     .imgGroup{
-        margin-left: 10vw;
-width: 50vw;
+        background-image: url("./ssloiEN3wB1.jpg");
+        margin-left: 10%;
+        margin-right: 10%;
+width: 80%;
 height: 50vw;
 }
 }
@@ -462,7 +519,8 @@ height: 8vw;
 }
 @media(max-width:768px){
 .ball{
-    margin:10% 50%;
+    width: 50vw;
+    margin:0 10vw;
 }
 .txt{
     margin-left: 25%;
@@ -470,4 +528,25 @@ height: 8vw;
 .txt2{
     margin-left: 5%;
 }
+}
+@media(max-width:1200px){
+    .txt{
+        line-height: 2vw;
+        font-size: 1.2vw;
+    }
+    .txt2{
+        font-size: 1.2vw;
+    }
+}
+.txt2{
+    font-size: 1.3vw;
+    line-height: 3vw;
+}
+.txt{
+    font-size: 1.4vw;
+    line-height: 2vw;
+}
+.menu1{
+    color: white;
+    display: none;
 }
