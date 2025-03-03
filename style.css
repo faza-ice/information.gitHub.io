@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Bad+Script&family=Caveat:wght@400..700&family=Poiret+One&display=swap');
 *{
     padding:0;
     border:0;
@@ -22,6 +23,9 @@ background-color: #000;
 min-height:200vh;
     display: flex;
     flex-direction: column;
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 400;
+    font-style: normal;
 
 }
 @media(max-width:3000px){
@@ -53,6 +57,9 @@ min-height:200vh;
 @media (max-width:480px){
 }
 header{
+    font-family: "Bad Script", cursive;
+  font-weight: 400;
+  font-style: normal;
     padding: 1vw;
     max-height: 8vw;
 max-width: 100%;
@@ -127,6 +134,10 @@ cursor: pointer;
     font-size: 1vw;
     width: 80%;
     color:rgba(255, 255, 255, 0.592);
+        font-family: "Poiret One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
 }
 @media (max-width:768px){
     .intoduction{
@@ -404,7 +415,7 @@ font-size: 3vw;
 }
 }
 .block_3{
-    margin-top: 10vw;
+    margin-top: 12vw;
     padding: 0.5vw;
 max-width: 100%;
 display: flex;
@@ -511,6 +522,10 @@ align-items: center;
 justify-content: space-around;
 }
 .textFooter{
+    font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
     text-align: center;
 width: 32%;
 }
