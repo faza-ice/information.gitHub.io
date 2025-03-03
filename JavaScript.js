@@ -4,6 +4,9 @@ const source0=document.querySelector(".source0");
 const source1=document.querySelector(".source1");
 const source2=document.querySelector(".source2");
 const source3=document.querySelector(".source3");
+const source4=document.querySelector(".source4");
+const source5=document.querySelector(".source5");
+const source6=document.querySelector(".source6");
 menu.addEventListener("click",function(){
     menu1.style.display="block";
 menu1.style.display="block";
@@ -15,6 +18,9 @@ menu1.style.justifyContent="space-around";
 menu1.style.alignItems="center";
 menu1.style.fontSize="4vw";
 menu1.style.textAlign="center";
+menu1.style.fontFamily=" 'Bad Script', cursive";
+menu1.style.fontWeigh=" 400";
+menu1.style.fontStyle="normal";
 window.scrollTo(0,1);
 window.onscroll=function(){
     window.scrollTo(0,0);
@@ -62,3 +68,27 @@ source3.addEventListener("click",function(){
         menu1.style.display="none";
         menu.style.display="block";
         });
+        source4.addEventListener("click",function(){
+            const titleBlock1=document.querySelector(".titleBlock1");
+            titleBlock1.scrollIntoView({
+                block:"start",
+                inline:"nearest",
+                behavior:"auto",
+            });
+        });
+        source5.addEventListener("click",function(){
+            const titleBlock2=document.querySelector(".titleBlock2");
+            titleBlock2.scrollIntoView({
+                block:"start",
+                inline:"nearest",
+                behavior:"auto",
+            });
+        });
+        source6.addEventListener("click",function(){
+            const titleBlock3=document.querySelector(".titleBlock3");
+            titleBlock3.scrollIntoView({
+                block:"start",
+                inline:"nearest",
+                behavior:"auto",
+            });
+        })
