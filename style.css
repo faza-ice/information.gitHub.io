@@ -41,7 +41,7 @@ min-height:200vh;
 }
 @media (max-width:768px){
     .container{
-        max-width: 480px;
+        max-width: 100vw;
     }
     .source{
         display: none;
@@ -77,16 +77,17 @@ align-items: center;
 width: 33.3333%;
 border-right: 1px solid white;
 }
-@media (max-width:768px){
-    .titleHeader{
-        width: 66.6666%;
-        font-size: 4vw;
-    }
-}
+
 @media (max-width:1200px){
     .titleHeader{
         width: 66.6666%;
         font-size: 2vw;
+    }
+}
+@media (max-width:768px){
+    .titleHeader{
+        width: 66.6666%;
+        font-size: 4vw;
     }
 }
 .sourceHeader{
@@ -148,7 +149,7 @@ max-width: 100%;
 @media (max-width:768px){
    .block_1{
     max-width: 100vw;
-    min-height: 60vw;
+    min-height: 100vw;
    }
 }
 @media (max-width:480px){
@@ -161,41 +162,54 @@ max-width: 100%;
 text-align: center;
 font-size: 1.8vw;
 }
+
+@media (max-width:1200px){
+    .titleBlock1{
+        font-size: 4vw;
+    }
+}
 @media (max-width:768px){
     .titleBlock1{
         font-size: 4vw;
         margin-bottom: 2vw;
     }
 }
-@media (max-width:1200px){
-    .titleBlock1{
-        font-size: 2.5vw;
-    }
-}
 .textBlock1{
     margin-top: 5vw;
     margin-left: 5vw;
     width: 60vw;
-    font-size: 1.3vw;
+    font-size: 3vw;
     letter-spacing: 0.15vw;
 line-height: 4vw;
 }
-@media (max-width:768px){
-    .textBlock1{
-font-size: 3vw;    
-line-height: 4vw;
-}
-}
+
 @media (max-width:1200px){
     .textBlock1{
 font-size: 2vw;    
 line-height: 4vw;
 }
 }
+@media (max-width:768px){
+    .textBlock1{
+        width: 90%;
+        height: 30vh;
+font-size:3vw;    
+line-height: 4vw;
+}
+}
+
+@media (max-width:480px){
+    .textBlock1{
+        width: 90%;
+        height: 90vw;
+font-size:3vw;    
+line-height: 4vw;
+}
+}
 .block_2{
     max-height:40vw;
     max-width: 100%;
-    margin-top: 5vw;
+    margin-top: 1vw;
 display: flex;
 flex-direction: column;
 }
@@ -220,17 +234,17 @@ justify-content: space-around;
     font-size: 1.8vw;
 text-align: center;
 }
+@media (max-width:1200px){
+    .titleBlock2{
+font-size: 2.5vw;
+}
+}
 @media (max-width:768px){
     .titleBlock2{
 font-size: 4vw;;
 }
 }
 
-@media (max-width:1200px){
-    .titleBlock2{
-font-size: 2.5vw;
-}
-}
 .Group1{
     margin-top: 5vw;
     min-height: 60vw;
@@ -376,15 +390,16 @@ height: 30vw
     font-size: 1.4vw;
     text-align: center;
 }
-@media (max-width:768px){
-    .titleGroup{
-font-size: 3.5vw;
 
-}
-}
 @media (max-width:1200px){
     .titleGroup{
 font-size: 1.35vw;
+
+}
+}
+@media (max-width:768px){
+    .titleGroup{
+font-size: 3vw;
 
 }
 }
@@ -432,11 +447,11 @@ margin-top: 10vw;
     max-width: 100%;
     max-height: 3vh;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 6vw;
 }
 @media (max-width:768px){
     .titleBlock3{
-        font-size: 2.5vw;
+        font-size: 4vw;
 }
 }
 .textGroup{
@@ -464,6 +479,7 @@ padding: 0vw 1.5vw;
         background-image: url("./ssloiEN3wB1.jpg");
         margin-left: 10%;
         margin-right: 10%;
+        margin-top: 2vw;
 width: 80%;
 height: 50vw;
 }
@@ -478,6 +494,7 @@ background-color: rgba(35, 35, 35, 1);
     footer{
 height: 8vw;
 font-size: 3vw;
+margin-top: 2vw;
 }
 }
 @media (max-width:480px){
@@ -544,28 +561,6 @@ height: 8vw;
     background-repeat: no-repeat;
     background-size: cover;
 }
-@media(max-width:768px){
-.ball{
-    width: 170%;
-    margin:0 5vw;
-}
-.txt{
-    font-size: 2vw;
-    margin-left: 25%;
-}
-.txt2{
-    margin-left: 5%;
-}
-}
-@media(max-width:1200px){
-    .txt{
-        line-height: 3vw;
-        font-size: 90px;
-    }
-    .txt2{
-        font-size: 1.2vw;
-    }
-}
 .txt2{
     font-size: 1.3vw;
     line-height: 3vw;
@@ -580,3 +575,29 @@ height: 8vw;
     color: white;
     display: none;
 }
+
+@media(max-width:1200px){
+    .txt{
+        line-height: 1vw;
+        font-size: 1vw;
+    }
+    .txt2{
+        font-size: 1.2vw;
+    }
+}
+@media(max-width:768px){
+    .ball{
+        width: 170%;
+        margin:0 5vw;
+    }
+    .txt{
+        line-height:4vw;
+        font-size: 2vw;
+        margin-left: 25%;
+    }
+    .txt2{
+        line-height: 4vw;
+        font-size: 3vw;
+        margin-left: 5%;
+    }
+    }
